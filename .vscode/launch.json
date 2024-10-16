@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+           
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "AgelessTest",//"ProdTest",//"AgelessTest",//"AgelessProdCopy",
+          //  "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "server": "https://businesscentral.dynamics.com/",
+            "tenant": "02984de1-bec3-4e6c-aa0d-4cfa421875c4",
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode":"ForceSync"
+        }
+    ]
+}
